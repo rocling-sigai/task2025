@@ -245,7 +245,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh; /* 设置容器高度，使其占满整个视窗 */
-    margin: 0; /* 移除默认的body边距 */
+/*     margin: 0; /* 移除默认的body边距 */ */
 }
 
 .introduction .introduce_div_before{
@@ -272,12 +272,12 @@
 
 .introduction .introduce_div_before .list ol{  
     padding-left:15px;
-    font-size: 20px; 
+    font-size: 46px; 
 }
 
 .introduction .introduce_div_before .list ul{  
     padding-left:15px;
-    font-size: 20px; 
+    font-size: 46px; 
 }
 
 .introduction .introduce_div_before .list li{
