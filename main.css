@@ -176,7 +176,7 @@
 
 .welcome .session .people{
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
     justify-content:center;
     flex-wrap:wrap;
     margin: 20px auto ;
@@ -184,16 +184,11 @@
 
 .welcome .session .people .author{
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
     justify-content:center;
     margin:10px;
 }
 
-.welcome .session .people .author img{
-    width:90px;
-    height:110px;
-    border-radius:50%;
-}
 
 .welcome p{
     margin: 10px;
