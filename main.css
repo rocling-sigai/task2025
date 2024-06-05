@@ -251,7 +251,6 @@
     flex-direction:row;
     justify-content:space-around;
 }
-
 .introduction .contact_div_before{
     display: flex;
     flex-direction:row;
@@ -264,6 +263,27 @@
     margin-top:40px;
     padding-left: 20px;
 }
+
+.introduction .introduce_div_before .list{
+    padding-left: 40px;
+}
+
+.introduction .introduce_div_before .list ol{  
+    padding-left:15px;
+    font-size: 20px; 
+}
+
+.introduction .introduce_div_before .list ul{  
+    padding-left:15px;
+    font-size: 20px; 
+}
+
+.introduction .introduce_div_before .list li{
+    padding: 5px 0;
+    font-size: var(--p_size);
+    font-family: var(--content_face);
+}
+
 
 .introduction .contact_div_before .contact_div{
     width:var(--content_width);;
