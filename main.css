@@ -59,6 +59,14 @@
     font-size: var(--p_size);
  }
 
+.center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* 设置容器高度，使其占满整个视窗 */
+            margin: 0; /* 移除默认的body边距 */
+        }
+
 @media (max-width: 1110px) {
     .navbar-header {
         float: none;
