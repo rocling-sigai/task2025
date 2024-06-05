@@ -282,7 +282,7 @@
 
 .introduction .introduce_div_before .list li{
     padding: 5px 0;
-    font-size: var(--p_size);
+    font-size: 46px; 
     font-family: var(--content_face);
 }
 
