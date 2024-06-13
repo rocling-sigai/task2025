@@ -74,8 +74,8 @@
     <div class="welcome">
         <div class="wrap">
             <div class="item text">
-                <h1>ROCLING 2024 Shared Task<br>
-                    Chinese Dimensional Sentiment Analysis for Medical Self-Reflection Texts</h1>
+                <h1 style="color: red;">ROCLING 2024 Shared Task</h1><br>
+                <h1>Chinese Dimensional Sentiment Analysis for Medical Self-Reflection Texts</h1>
                 <div class="session">
                     <h2>
                         Organizers
@@ -132,7 +132,8 @@
         <div class="introduce_div_before">
             <div class="introduce_div">
                 <h1>Registration</h1>
-                <p>CodaBench page: <a href="https://www.codabench.org/competitions/2137/" target="_blank">https://www.codabench.org/competitions/2137/</a></p>
+                    <p>CodaBench page:TBD</p>
+<!--                 <p>CodaBench page: <a href="https://www.codabench.org/competitions/2137/" target="_blank">https://www.codabench.org/competitions/2137/</a></p> -->
             </div>
         </div>
         <div class="introduce_div_before">
@@ -201,7 +202,7 @@
                     <p>The policy of this shared task is an open test. Participating systems are allowed to use other publicly available data for this shared task, but the use of other data should be specified in the final system description paper.</p>
                 </div>
                 <h2>Test Set</h2>
-                <p>at least 1,500 doctors’ self-reflection texts will be provided for system performance evaluation.</p>
+                <p>We will provide at least 1,500 doctors’ self-reflection texts for system performance evaluation.</p>
             </div>  
         </div>
     </div>
@@ -213,7 +214,7 @@
         <div class="introduce_div_before">
             <div class="introduce_div">
                 <h1>Evaluation</h1>
-                <p>The performance is evaluated by examining the difference between machine-predicted ratings and human-annotated ratings (valence and arousal are treated independently). The evaluation metrics include: <strong>Mean Absolute Error (MAE)</strong> and <strong>Correlation Coefficient (PCC)</strong> , defined as follows</p>
+                <p>The performance is evaluated by examining the difference between machine-predicted ratings and human-annotated ratings (valence and arousal are treated independently). The evaluation metrics include: <strong style="color: red;">Mean Absolute Error (MAE)</strong> and <strong style="color: red;">Correlation Coefficient (PCC)</strong> , defined as follows</p>
                 <p><span>$$ MAE = \frac{1}{n} \sum_{i=1}^{n}|a_{i}-p_{i}| $$</span></p>
                 <p><span>$$ PCC = \frac{1}{n-1} \sum_{i=1}^{n}(\frac{a_{i}-\mu_{A}}{\sigma_{A}})(\frac{p_{i}-\mu_{P}}{\sigma_{P}}) $$</span></p>
                 <p>where \( a_{i}\in{A} \)  and \( p_{i}\in{P} \)  respectively denote the i-th actual value and predicted value, n is the number of test samples, and \( \mu_{A} \)  and \( \sigma_{A} \) respectively represent the mean value and the standard deviation of A, while \( \mu_{P} \) and \( \sigma_{P} \) respectively represent the mean value and the standard deviation of P. </p>
